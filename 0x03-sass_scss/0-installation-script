@@ -1,0 +1,33 @@
+Steps I used to install SASS:
+
+1. Navigated to the project folder:
+  - Opened Command Prompt.
+  - Went to Desktop: cd C:\Users\user\Desktop
+  - Entered the project folder: cd alx-intermediate-frontend
+
+2. Created a folder for the SASS task:
+  - mkdir 0x03-sass_scss
+  - cd 0x03-sass_scss
+
+3. Tried to install the version requested by the project:
+  - Ran: npm install sass@3.7.4
+  - Got an error: No matching version found for sass@3.7.4
+  - Learned that version 3.7.4 does not exist.
+
+4. Installed the latest stable version of SASS:
+  - Ran: npm install sass
+  - SASS installed successfully.
+
+5. Verified the installation:
+  - Ran: npx sass --version
+  - Output: 1.92.1 compiled with dart2js 3.9.2
+
+6. Created a file to document the steps:
+  - type nul > 0-installation-script
+  - Opened the file in Notepad or VS Code.
+  - Wrote all the steps above into the file and saved it.
+
+7. Task complete:
+  - Folder `0x03-sass_scss` exists.
+  - SASS installed and working.
+  - Installation steps documented in `0-installation-script`.
