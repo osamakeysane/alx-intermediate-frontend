@@ -1,0 +1,13 @@
+// 1-color_variable.scss
+
+// Step 1: Declare a variable for the main text color
+$main-color: #3d3d3d;
+
+// Step 2: Apply the variable to body and paragraph tags
+body {
+  color: $main-color;
+}
+
+p {
+  color: $main-color;
+}
